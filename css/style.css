@@ -138,7 +138,7 @@
 
 .produtos h2{
     font-size: 3em;
-    margin: 0 10px 60px 10px;
+    
 }
 
 .produtos-container {
@@ -148,8 +148,31 @@
 }
 
 .produtos-item{
-    max-width: 175px;
+    min-width: 175px;
+    max-width: 300px;
     margin: 10px;
 }
 
+.produtos-item img{
+    width: 100%;
+}
+
+.produtos-item h2{
+    font-size: 3em;
+    color: var(--Color-gray-Strong);
+    background: var(--Background-Gray-Soft);
+    padding: 60px 20px;
+}
+
+.purple{
+    border-top: 8px solid var(--Row-Purple);
+}
+
+.pink{
+    border-top: 8px solid var(--Row-Pink);
+}
+
+.blue{
+    border-top: 8px solid var(--Row-blue);
+}
 
