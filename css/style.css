@@ -176,3 +176,18 @@
     border-top: 8px solid var(--Row-blue);
 }
 
+.preco{
+    background: var(--Background-Gray-Soft);
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.preco-item{
+    min-width: 260px;
+    border: 4px solid white;
+    padding: 20px;
+    margin: 10px;
+
+}
