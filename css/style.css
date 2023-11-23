@@ -316,3 +316,23 @@
     color: var(--Color-gray-Strong);
     margin-bottom: 10px;
 }
+
+.newsletter-form {
+    min-width: 260px;
+    width: 300px;
+    margin: 0 10px;
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter-form input{
+    min-width: 200px;
+    width: 300px;
+    font-family: 'nunito', Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+}
+
+
+
+
