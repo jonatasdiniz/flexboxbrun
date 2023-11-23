@@ -331,8 +331,12 @@
     width: 300px;
     font-family: 'nunito', Arial, Helvetica, sans-serif;
     font-size: 1.25em;
+    color: var(--Color-gray-Strong);
+    font-style: italic;
+    border: 4px solid var(--Background-blue-Bright);
+    background: transparent;
+    padding: 15px 10px;
+    margin: 0px;
+    border-radius: 0px;
+    
 }
-
-
-
-
