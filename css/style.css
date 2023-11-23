@@ -291,3 +291,28 @@
 }
 
 
+.newsletter {
+    background-color: var(--Background-Gray-Soft);
+    padding: 60px 140px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter-info {
+    min-width: 200px;   
+    width: 200px;
+    margin: 0 10px;
+}
+
+.newsletter-info h2{
+    font-size: 3em;
+    color: var(--Color-gray-Soft);
+}
+
+.newsletter-info p{
+    font-size: 1.25em;
+    font-style: italic;
+    max-width: 230px;
+    color: var(--Color-gray-Strong);
+    margin-bottom: 10px;
+}
